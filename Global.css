@@ -1,0 +1,46 @@
+:root {
+    --main-button-color: #2596be;
+  }
+
+
+.btn-primary{
+    background-color: var(--main-button-color) !important;
+    color: white;
+    padding: 5px 12px 7px 12px;
+}
+ .btn-primary:focus{
+    color: #fff;
+    background-color: var(--main-button-color);
+    border-color: var(--main-button-color);
+    box-shadow: 0 0 0 0.25rem rgba(19,130,155,.5);
+    
+} 
+.btn-primary:active{
+    color: #fff;
+    background-color: var(--main-button-color) !important;
+    border-color: var(--main-button-color) !important;
+    box-shadow: 0 0 0 0.25rem rgba(37, 150, 190, 0.5) !important;
+} 
+.nav-item {
+   
+    text-decoration: none;
+    color: black !important;
+    border: 1px solid transparent; /* Set a transparent border by default */
+}
+
+/* Style the default border for the 'Home' link */
+.nav-item.active,
+.nav-item:focus,
+.nav-item:active {
+    border-bottom: 4px solid black;
+}
+@media screen and (max-width:992px) {
+.nav-item{
+    padding-left: 0px !important;
+}
+}
+@media screen and (max-width:776px) {
+    .nav-item{
+        padding-left: 0px !important;
+    }
+}

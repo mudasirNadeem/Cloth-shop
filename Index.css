@@ -1,0 +1,50 @@
+:root {
+    --main-button-color: #2596be;
+    --min-bg-color:#fcc29a;
+  }
+.fs-9{
+    font-size: 9px;
+}
+.button-color{
+    color: var(--main-button-color);
+}
+.min-bg-color{
+    background-color: var(--min-bg-color);
+}
+.border-main-color{
+    border-right: var(--min-bg-color) solid 2px;
+}
+.setting{
+   box-shadow: #fcc29a  -40px -20px 0 10px;
+}
+.setting-2{
+   box-shadow: #29d2e4  50px -20px 0 10px;
+
+}
+.sm-block{
+    display: none;
+}
+@media screen and (max-width:991px) {
+    .sm-none{
+        display: none;
+    }
+    .sm-block{
+        display: block;
+    }
+}
+@media screen and (max-width:767px) {
+.sm-w-100{
+    width: 100%;
+}
+.sm-position{
+    position: relative;
+    left: 0 !important;
+}
+.setting{
+    box-shadow: #fcc29a  -25px -20px 0 10px;
+ }
+ .setting-2{
+    box-shadow: #29d2e4  30px -20px 0 10px;
+ 
+ }
+}
